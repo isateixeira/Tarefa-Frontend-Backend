@@ -1,0 +1,24 @@
+{
+   "type": "postgres",
+   "host": "kesavan.db.elephantsql.com",
+   "port": 5432,
+   "username": "npnsixlx",
+   "password": "5iZKUm0mUm_CUb12MbyrvKDlr17KVjVj",
+   "database": "npnsixlx",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
